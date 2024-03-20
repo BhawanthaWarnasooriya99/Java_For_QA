@@ -1,6 +1,6 @@
 package com.test;
 
-public class hello {
+public class Hello {
 
 	public static void main(String[] args) {
 
@@ -8,6 +8,9 @@ public class hello {
 		addVariablesAndPrint(5,10);
 		addVariablesAndPrint(6,10);
 		printName("warnasooriya");
+		decimalDemo();
+		addOperation(30, 25);
+		substarctOperation(50, 15);
 	}
 	
 	//a = 10
@@ -23,6 +26,25 @@ public class hello {
 	
 	public static void printName(String name) {
 		System.out.println(name);
+	}
+	
+	public static void decimalDemo() {
+		double a = 133;
+		
+		double b = a/2;
+		
+		System.out.println(b);
+	}
+	
+	public static void addOperation(int num1, int num2) {
+		int tot = num1 + num2;
+		
+		System.out.println("total = " +tot);
+	}
+	
+	public static void substarctOperation(int num1, int num2) {
+		int tot = num1 - num2;
+		System.out.println("total = " +tot);
 	}
 	
 }
