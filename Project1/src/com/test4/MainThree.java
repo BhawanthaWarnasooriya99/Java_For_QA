@@ -1,3 +1,5 @@
+//Encapsulation
+
 package com.test4;
 
 public class MainThree{
